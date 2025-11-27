@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+    id INTERGER PRIMARY KEY AUTOINCREMENT,
+    nombres TEXT,
+    apellidos TEXT,
+    correo TEXT UNIQUE,
+    contraseña TEXT
+);
